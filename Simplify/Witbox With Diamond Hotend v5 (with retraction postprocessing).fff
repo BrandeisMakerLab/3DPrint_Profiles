@@ -1,0 +1,363 @@
+<?xml version="1.0"?>
+<profile name="Witbox W/ Diamond Hotend" version="2016-09-12 21:47:31" app="S3D-Software 3.1.0">
+  <baseProfile>Default</baseProfile>
+  <printMaterial>PLA</printMaterial>
+  <printQuality>Medium</printQuality>
+  <printExtruders>First Extruder Only</printExtruders>
+  <extruder name="Extruder 1">
+    <toolheadNumber>0</toolheadNumber>
+    <diameter>0.4</diameter>
+    <autoWidth>0</autoWidth>
+    <width>0.4</width>
+    <extrusionMultiplier>0.9</extrusionMultiplier>
+    <useRetract>1</useRetract>
+    <retractionDistance>5</retractionDistance>
+    <extraRestartDistance>0</extraRestartDistance>
+    <retractionZLift>0</retractionZLift>
+    <retractionSpeed>6000</retractionSpeed>
+    <useCoasting>0</useCoasting>
+    <coastingDistance>0.2</coastingDistance>
+    <useWipe>0</useWipe>
+    <wipeDistance>5</wipeDistance>
+  </extruder>
+  <extruder name="Extruder 2">
+    <toolheadNumber>1</toolheadNumber>
+    <diameter>0.4</diameter>
+    <autoWidth>0</autoWidth>
+    <width>0.4</width>
+    <extrusionMultiplier>0.9</extrusionMultiplier>
+    <useRetract>1</useRetract>
+    <retractionDistance>5</retractionDistance>
+    <extraRestartDistance>0</extraRestartDistance>
+    <retractionZLift>0</retractionZLift>
+    <retractionSpeed>6000</retractionSpeed>
+    <useCoasting>0</useCoasting>
+    <coastingDistance>0.2</coastingDistance>
+    <useWipe>0</useWipe>
+    <wipeDistance>5</wipeDistance>
+  </extruder>
+  <extruder name="Extruder 3">
+    <toolheadNumber>2</toolheadNumber>
+    <diameter>0.4</diameter>
+    <autoWidth>0</autoWidth>
+    <width>0.4</width>
+    <extrusionMultiplier>0.9</extrusionMultiplier>
+    <useRetract>1</useRetract>
+    <retractionDistance>5</retractionDistance>
+    <extraRestartDistance>0</extraRestartDistance>
+    <retractionZLift>0</retractionZLift>
+    <retractionSpeed>6000</retractionSpeed>
+    <useCoasting>0</useCoasting>
+    <coastingDistance>0.2</coastingDistance>
+    <useWipe>0</useWipe>
+    <wipeDistance>5</wipeDistance>
+  </extruder>
+  <extruder name="Mixing Extruder 4">
+    <toolheadNumber>3</toolheadNumber>
+    <diameter>0.4</diameter>
+    <autoWidth>0</autoWidth>
+    <width>0.4</width>
+    <extrusionMultiplier>0.9</extrusionMultiplier>
+    <useRetract>1</useRetract>
+    <retractionDistance>5</retractionDistance>
+    <extraRestartDistance>0</extraRestartDistance>
+    <retractionZLift>0</retractionZLift>
+    <retractionSpeed>6000</retractionSpeed>
+    <useCoasting>0</useCoasting>
+    <coastingDistance>0.2</coastingDistance>
+    <useWipe>0</useWipe>
+    <wipeDistance>5</wipeDistance>
+  </extruder>
+  <extruder name="Mixing Extruder 5">
+    <toolheadNumber>4</toolheadNumber>
+    <diameter>0.4</diameter>
+    <autoWidth>0</autoWidth>
+    <width>0.4</width>
+    <extrusionMultiplier>0.9</extrusionMultiplier>
+    <useRetract>1</useRetract>
+    <retractionDistance>5</retractionDistance>
+    <extraRestartDistance>0</extraRestartDistance>
+    <retractionZLift>0</retractionZLift>
+    <retractionSpeed>6000</retractionSpeed>
+    <useCoasting>0</useCoasting>
+    <coastingDistance>0.2</coastingDistance>
+    <useWipe>0</useWipe>
+    <wipeDistance>5</wipeDistance>
+  </extruder>
+  <primaryExtruder>0</primaryExtruder>
+  <layerHeight>0.2</layerHeight>
+  <topSolidLayers>3</topSolidLayers>
+  <bottomSolidLayers>3</bottomSolidLayers>
+  <perimeterOutlines>2</perimeterOutlines>
+  <printPerimetersInsideOut>1</printPerimetersInsideOut>
+  <startPointOption>2</startPointOption>
+  <startPointOriginX>0</startPointOriginX>
+  <startPointOriginY>0</startPointOriginY>
+  <startPointOriginZ>300</startPointOriginZ>
+  <sequentialIslands>0</sequentialIslands>
+  <spiralVaseMode>0</spiralVaseMode>
+  <firstLayerHeightPercentage>90</firstLayerHeightPercentage>
+  <firstLayerWidthPercentage>100</firstLayerWidthPercentage>
+  <firstLayerUnderspeed>0.5</firstLayerUnderspeed>
+  <useRaft>0</useRaft>
+  <raftExtruder>0</raftExtruder>
+  <raftLayers>3</raftLayers>
+  <raftOffset>3</raftOffset>
+  <raftSeparationDistance>0.14</raftSeparationDistance>
+  <raftInfill>85</raftInfill>
+  <disableRaftBaseLayers>0</disableRaftBaseLayers>
+  <useSkirt>1</useSkirt>
+  <skirtExtruder>0</skirtExtruder>
+  <skirtLayers>1</skirtLayers>
+  <skirtOutlines>2</skirtOutlines>
+  <skirtOffset>4</skirtOffset>
+  <usePrimePillar>0</usePrimePillar>
+  <primePillarExtruder>999</primePillarExtruder>
+  <primePillarWidth>12</primePillarWidth>
+  <primePillarLocation>7</primePillarLocation>
+  <primePillarSpeedMultiplier>1</primePillarSpeedMultiplier>
+  <useOozeShield>0</useOozeShield>
+  <oozeShieldExtruder>999</oozeShieldExtruder>
+  <oozeShieldOffset>2</oozeShieldOffset>
+  <oozeShieldOutlines>1</oozeShieldOutlines>
+  <oozeShieldSidewallShape>1</oozeShieldSidewallShape>
+  <oozeShieldSidewallAngle>30</oozeShieldSidewallAngle>
+  <oozeShieldSpeedMultiplier>1</oozeShieldSpeedMultiplier>
+  <infillExtruder>0</infillExtruder>
+  <internalInfillPattern>Rectilinear</internalInfillPattern>
+  <externalInfillPattern>Rectilinear</externalInfillPattern>
+  <infillPercentage>20</infillPercentage>
+  <outlineOverlapPercentage>15</outlineOverlapPercentage>
+  <infillExtrusionWidthPercentage>100</infillExtrusionWidthPercentage>
+  <minInfillLength>5</minInfillLength>
+  <infillLayerInterval>1</infillLayerInterval>
+  <infillAngles>45,-45</infillAngles>
+  <overlapInfillAngles>0</overlapInfillAngles>
+  <generateSupport>0</generateSupport>
+  <supportExtruder>0</supportExtruder>
+  <supportInfillPercentage>30</supportInfillPercentage>
+  <supportExtraInflation>0</supportExtraInflation>
+  <denseSupportLayers>0</denseSupportLayers>
+  <denseSupportInfillPercentage>70</denseSupportInfillPercentage>
+  <supportLayerInterval>1</supportLayerInterval>
+  <supportHorizontalPartOffset>0.3</supportHorizontalPartOffset>
+  <supportUpperSeparationLayers>1</supportUpperSeparationLayers>
+  <supportLowerSeparationLayers>1</supportLowerSeparationLayers>
+  <supportType>0</supportType>
+  <supportGridSpacing>4</supportGridSpacing>
+  <maxOverhangAngle>45</maxOverhangAngle>
+  <supportAngles>0</supportAngles>
+  <temperatureController name="Diamond Hotend Temperature">
+    <temperatureNumber>0</temperatureNumber>
+    <isHeatedBed>0</isHeatedBed>
+    <relayBetweenLayers>0</relayBetweenLayers>
+    <relayBetweenLoops>0</relayBetweenLoops>
+    <stabilizeAtStartup>1</stabilizeAtStartup>
+    <setpoint layer="1" temperature="225"/>
+  </temperatureController>
+  <fanSpeed>
+    <setpoint layer="1" speed="0"/>
+    <setpoint layer="2" speed="100"/>
+  </fanSpeed>
+  <blipFanToFullPower>0</blipFanToFullPower>
+  <adjustSpeedForCooling>1</adjustSpeedForCooling>
+  <minSpeedLayerTime>7</minSpeedLayerTime>
+  <minCoolingSpeedSlowdown>20</minCoolingSpeedSlowdown>
+  <increaseFanForCooling>0</increaseFanForCooling>
+  <minFanLayerTime>45</minFanLayerTime>
+  <maxCoolingFanSpeed>100</maxCoolingFanSpeed>
+  <increaseFanForBridging>0</increaseFanForBridging>
+  <bridgingFanSpeed>100</bridgingFanSpeed>
+  <use5D>1</use5D>
+  <relativeEdistances>0</relativeEdistances>
+  <allowEaxisZeroing>1</allowEaxisZeroing>
+  <independentExtruderAxes>0</independentExtruderAxes>
+  <includeM10123>0</includeM10123>
+  <stickySupport>1</stickySupport>
+  <applyToolheadOffsets>0</applyToolheadOffsets>
+  <gcodeXoffset>0</gcodeXoffset>
+  <gcodeYoffset>0</gcodeYoffset>
+  <gcodeZoffset>0</gcodeZoffset>
+  <overrideMachineDefinition>1</overrideMachineDefinition>
+  <machineTypeOverride>0</machineTypeOverride>
+  <strokeXoverride>297</strokeXoverride>
+  <strokeYoverride>210</strokeYoverride>
+  <strokeZoverride>200</strokeZoverride>
+  <originOffsetXoverride>0</originOffsetXoverride>
+  <originOffsetYoverride>0</originOffsetYoverride>
+  <originOffsetZoverride>0</originOffsetZoverride>
+  <homeXdirOverride>1</homeXdirOverride>
+  <homeYdirOverride>1</homeYdirOverride>
+  <homeZdirOverride>-1</homeZdirOverride>
+  <flipXoverride>1</flipXoverride>
+  <flipYoverride>-1</flipYoverride>
+  <flipZoverride>1</flipZoverride>
+  <toolheadOffsets>0,0|0,0|0,0|0,0|0,0|0,0</toolheadOffsets>
+  <overrideFirmwareConfiguration>1</overrideFirmwareConfiguration>
+  <firmwareTypeOverride>RepRap (Marlin/Repetier/Sprinter)</firmwareTypeOverride>
+  <GPXconfigOverride>r2</GPXconfigOverride>
+  <baudRateOverride>250000</baudRateOverride>
+  <overridePrinterModels>1</overridePrinterModels>
+  <printerModelsOverride></printerModelsOverride>
+  <startingGcode>; Set mixed color,; For other colors visit http://www.reprap.org/wiki/Repetier_Color_Mixing,M163 S0 P1 ; Set to 1 part extruder 0,M163 S1 P0 ; Set to 0 parts extruder 1,M163 S2 P0 ; Set to 0 parts extruder 2,M164 S0 : Save mixing instructions,,M163 S0 P0 ; Set to 0 part extruder 0,M163 S1 P1 ; Set to 1 parts extruder 1,M163 S2 P0 ; Set to 0 parts extruder 2,M164 S1 : Save mixing instructions,,M163 S0 P0 ; Set to 0 part extruder 0,M163 S1 P0 ; Set to 0 parts extruder 1,M163 S2 P1 ; Set to 1 parts extruder 2,M164 S2 : Save mixing instructions,,T0; Set to main first extruder,G28; Home all axes,G0 Z5; Lower Bed,G1 X0 Y0; Rehome X and Y,,T0; Reset to main first extruder,G92 E0; Reset filament before purge,G0 E5 F100; Purge Extruder,,G0 X20 Z0 F1000; Wipe nozzle,G0 Z0.1; Lower plate slightly,G92 E0; Reset Extruder and ready for printing,M117 Printing... ; Sets the LCD message</startingGcode>
+  <layerChangeGcode></layerChangeGcode>
+  <retractionGcode></retractionGcode>
+  <toolChangeGcode></toolChangeGcode>
+  <endingGcode>T0; Set to first extruder (to cooldown),M104 S0; Turn off hotend,G28 X0; Home X axis,G91; Switch to relative positioning,M84; Sets printer idle</endingGcode>
+  <exportFileFormat>gcode</exportFileFormat>
+  <celebration>0</celebration>
+  <celebrationSong>Funky Town</celebrationSong>
+  <postProcessing>|diamondRetraction 1, &quot;[output_filepath]&quot;</postProcessing>
+  <defaultSpeed>3600</defaultSpeed>
+  <outlineUnderspeed>0.5</outlineUnderspeed>
+  <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
+  <supportUnderspeed>0.8</supportUnderspeed>
+  <rapidXYspeed>4800</rapidXYspeed>
+  <rapidZspeed>1002</rapidZspeed>
+  <minBridgingArea>50</minBridgingArea>
+  <bridgingExtraInflation>0</bridgingExtraInflation>
+  <bridgingExtrusionMultiplier>1</bridgingExtrusionMultiplier>
+  <bridgingSpeedMultiplier>1</bridgingSpeedMultiplier>
+  <filamentDiameter>1.75</filamentDiameter>
+  <filamentPricePerKg>46</filamentPricePerKg>
+  <filamentDensity>1.25</filamentDensity>
+  <useMinPrintHeight>0</useMinPrintHeight>
+  <minPrintHeight>0</minPrintHeight>
+  <useMaxPrintHeight>0</useMaxPrintHeight>
+  <maxPrintHeight>0</maxPrintHeight>
+  <useDiaphragm>0</useDiaphragm>
+  <diaphragmLayerInterval>20</diaphragmLayerInterval>
+  <robustSlicing>1</robustSlicing>
+  <mergeAllIntoSolid>0</mergeAllIntoSolid>
+  <onlyRetractWhenCrossingOutline>1</onlyRetractWhenCrossingOutline>
+  <retractBetweenLayers>1</retractBetweenLayers>
+  <useRetractionMinTravel>1</useRetractionMinTravel>
+  <retractionMinTravel>3</retractionMinTravel>
+  <retractWhileWiping>0</retractWhileWiping>
+  <onlyWipeOutlines>1</onlyWipeOutlines>
+  <avoidCrossingOutline>0</avoidCrossingOutline>
+  <maxMovementDetourFactor>3</maxMovementDetourFactor>
+  <toolChangeRetractionDistance>0</toolChangeRetractionDistance>
+  <toolChangeExtraRestartDistance>0</toolChangeExtraRestartDistance>
+  <toolChangeRetractionSpeed>6000</toolChangeRetractionSpeed>
+  <allowThinWallGapFill>1</allowThinWallGapFill>
+  <thinWallAllowedOverlapPercentage>10</thinWallAllowedOverlapPercentage>
+  <horizontalSizeCompensation>0</horizontalSizeCompensation>
+  <autoConfigureMaterial name="PLA">
+    <globalExtruderTemperature>225</globalExtruderTemperature>
+    <globalBedTemperature>60</globalBedTemperature>
+    <globalExtrusionMultiplier>0.9</globalExtrusionMultiplier>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="100"/>
+    </fanSpeed>
+  </autoConfigureMaterial>
+  <autoConfigureQuality name="Fast">
+    <layerHeight>0.3</layerHeight>
+    <topSolidLayers>3</topSolidLayers>
+    <bottomSolidLayers>3</bottomSolidLayers>
+    <skirtLayers>1</skirtLayers>
+    <infillPercentage>15</infillPercentage>
+    <supportInfillPercentage>25</supportInfillPercentage>
+  </autoConfigureQuality>
+  <autoConfigureQuality name="Medium">
+    <layerHeight>0.2</layerHeight>
+    <topSolidLayers>3</topSolidLayers>
+    <bottomSolidLayers>3</bottomSolidLayers>
+    <skirtLayers>1</skirtLayers>
+    <infillPercentage>20</infillPercentage>
+    <supportInfillPercentage>30</supportInfillPercentage>
+  </autoConfigureQuality>
+  <autoConfigureQuality name="High">
+    <layerHeight>0.1</layerHeight>
+    <topSolidLayers>4</topSolidLayers>
+    <bottomSolidLayers>4</bottomSolidLayers>
+    <skirtLayers>2</skirtLayers>
+    <infillPercentage>30</infillPercentage>
+    <supportInfillPercentage>40</supportInfillPercentage>
+  </autoConfigureQuality>
+  <autoConfigureExtruders name="First Extruder Only" allowedToolheads="1">
+    <primaryExtruder>0</primaryExtruder>
+    <raftExtruder>0</raftExtruder>
+    <skirtExtruder>0</skirtExtruder>
+    <infillExtruder>0</infillExtruder>
+    <supportExtruder>0</supportExtruder>
+    <useSkirt>1</useSkirt>
+    <usePrimePillar>0</usePrimePillar>
+    <useOozeShield>0</useOozeShield>
+    <toggleTemperatureController name="Diamond Hotend Temperature" status="on" stabilize="on"/>
+    <startingGcode>; Set mixed color,; For other colors visit http://www.reprap.org/wiki/Repetier_Color_Mixing,M163 S0 P1 ; Set to 1 part extruder 0,M163 S1 P0 ; Set to 0 parts extruder 1,M163 S2 P0 ; Set to 0 parts extruder 2,M164 S0 : Save mixing instructions,,M163 S0 P0 ; Set to 0 part extruder 0,M163 S1 P1 ; Set to 1 parts extruder 1,M163 S2 P0 ; Set to 0 parts extruder 2,M164 S1 : Save mixing instructions,,M163 S0 P0 ; Set to 0 part extruder 0,M163 S1 P0 ; Set to 0 parts extruder 1,M163 S2 P1 ; Set to 1 parts extruder 2,M164 S2 : Save mixing instructions,,T0; Set to main first extruder,G28; Home all axes,G0 Z5; Lower Bed,G1 X0 Y0; Rehome X and Y,,T0; Reset to main first extruder,G92 E0; Reset filament before purge,G0 E5 F100; Purge Extruder,,G0 X20 Z0 F1000; Wipe nozzle,G0 Z0.1; Lower plate slightly,G92 E0; Reset Extruder and ready for printing,M117 Printing... ; Sets the LCD message</startingGcode>
+  </autoConfigureExtruders>
+  <autoConfigureExtruders name="Second Extruder Only" allowedToolheads="1">
+    <primaryExtruder>1</primaryExtruder>
+    <raftExtruder>1</raftExtruder>
+    <skirtExtruder>1</skirtExtruder>
+    <infillExtruder>1</infillExtruder>
+    <supportExtruder>1</supportExtruder>
+    <useSkirt>1</useSkirt>
+    <usePrimePillar>0</usePrimePillar>
+    <useOozeShield>0</useOozeShield>
+    <toggleTemperatureController name="Diamond Hotend Temperature" status="on" stabilize="on"/>
+    <startingGcode>; Set mixed color,; For other colors visit http://www.reprap.org/wiki/Repetier_Color_Mixing,M163 S0 P1 ; Set to 1 part extruder 0,M163 S1 P0 ; Set to 0 parts extruder 1,M163 S2 P0 ; Set to 0 parts extruder 2,M164 S0 : Save mixing instructions,,M163 S0 P0 ; Set to 0 part extruder 0,M163 S1 P1 ; Set to 1 parts extruder 1,M163 S2 P0 ; Set to 0 parts extruder 2,M164 S1 : Save mixing instructions,,M163 S0 P0 ; Set to 0 part extruder 0,M163 S1 P0 ; Set to 0 parts extruder 1,M163 S2 P1 ; Set to 1 parts extruder 2,M164 S2 : Save mixing instructions,T1; Set to main (second) extruder,G28; Home all axes,G0 Z5; Lower Bed,G0 X0 Y0; Rehome X and Y,G91; Set to relative positioning for purge,,T1; Reset to main (second) extruder,G0 E5 F100; Purge Extruder,,G90; Set to absolute positioning,G0 X20 Z0 F1000; Wipe nozzle,G0 Z0.1; Lower plate slightly,G92 E0; Reset Extruder and ready for printing</startingGcode>
+  </autoConfigureExtruders>
+  <autoConfigureExtruders name="Third Extruder Only" allowedToolheads="1">
+    <primaryExtruder>2</primaryExtruder>
+    <raftExtruder>2</raftExtruder>
+    <skirtExtruder>2</skirtExtruder>
+    <infillExtruder>2</infillExtruder>
+    <supportExtruder>2</supportExtruder>
+    <useSkirt>1</useSkirt>
+    <usePrimePillar>0</usePrimePillar>
+    <useOozeShield>0</useOozeShield>
+    <toggleTemperatureController name="Diamond Hotend Temperaturer" status="on" stabilize="on"/>
+    <startingGcode>; Set mixed color,; For other colors visit http://www.reprap.org/wiki/Repetier_Color_Mixing,M163 S0 P1 ; Set to 1 part extruder 0,M163 S1 P0 ; Set to 0 parts extruder 1,M163 S2 P0 ; Set to 0 parts extruder 2,M164 S0 : Save mixing instructions,,M163 S0 P0 ; Set to 0 part extruder 0,M163 S1 P1 ; Set to 1 parts extruder 1,M163 S2 P0 ; Set to 0 parts extruder 2,M164 S1 : Save mixing instructions,,M163 S0 P0 ; Set to 0 part extruder 0,M163 S1 P0 ; Set to 0 parts extruder 1,M163 S2 P1 ; Set to 1 parts extruder 2,M164 S2 : Save mixing instructionsT0; Set to main first extruder,,T2; Set to main (third) extruder,G28; Home all axes,G0 Z5; Lower Bed,G0 X0 Y0; Rehome X and Y,G91; Set to relative positioning for purge,,T2; Reset to main (third) extruder,G0 E5 F100; Purge Extruder,,G90; Set to absolute positioning,G0 X20 Z0 F1000; Wipe nozzle,G0 Z0.1; Lower plate slightly,G92 E0; Reset Extruder and ready for printing</startingGcode>
+  </autoConfigureExtruders>
+  <autoConfigureExtruders name="1 + 2 Extruders" allowedToolheads="2">
+    <primaryExtruder>0</primaryExtruder>
+    <raftExtruder>0</raftExtruder>
+    <skirtExtruder>0</skirtExtruder>
+    <infillExtruder>0</infillExtruder>
+    <supportExtruder>1</supportExtruder>
+    <useSkirt>0</useSkirt>
+    <usePrimePillar>1</usePrimePillar>
+    <useOozeShield>0</useOozeShield>
+    <toggleTemperatureController name="Diamond Hotend Temperature" status="on" stabilize="on"/>
+    <startingGcode>; Set mixed color,; For other colors visit http://www.reprap.org/wiki/Repetier_Color_Mixing,M163 S0 P1 ; Set to 1 part extruder 0,M163 S1 P0 ; Set to 0 parts extruder 1,M163 S2 P0 ; Set to 0 parts extruder 2,M164 S0 : Save mixing instructions,,M163 S0 P0 ; Set to 0 part extruder 0,M163 S1 P1 ; Set to 1 parts extruder 1,M163 S2 P0 ; Set to 0 parts extruder 2,M164 S1 : Save mixing instructions,,M163 S0 P0 ; Set to 0 part extruder 0,M163 S1 P0 ; Set to 0 parts extruder 1,M163 S2 P1 ; Set to 1 parts extruder 2,M164 S2 : Save mixing instructions,,T0; Set to main (first) extruder,G28; Home all axes,G0 Z5; Lower Bed,G0 X0 Y0; Rehome X and Y,G91; Set to relative positioning for purge,,T0; Reset to main (first) extruder,G0 E5 F100; Purge first Extruder,T1; Set to second extruder,G0 E5 F100; Purge second extruder,T0; Reset to main (first) extruder,,G90; Set to absolute positioning,G0 X20 Z0 F1000; Wipe nozzle,G0 Z0.1; Lower plate slightly,G92 E0; Reset Extruder and ready for printing</startingGcode>
+  </autoConfigureExtruders>
+  <autoConfigureExtruders name="2 + 3 Extruders" allowedToolheads="2">
+    <primaryExtruder>0</primaryExtruder>
+    <raftExtruder>0</raftExtruder>
+    <skirtExtruder>0</skirtExtruder>
+    <infillExtruder>0</infillExtruder>
+    <supportExtruder>1</supportExtruder>
+    <useSkirt>0</useSkirt>
+    <usePrimePillar>1</usePrimePillar>
+    <useOozeShield>0</useOozeShield>
+    <toggleTemperatureController name="Diamond Hotend Temperature" status="on" stabilize="on"/>
+    <startingGcode>; Set mixed color,; For other colors visit http://www.reprap.org/wiki/Repetier_Color_Mixing,M163 S0 P1 ; Set to 1 part extruder 0,M163 S1 P0 ; Set to 0 parts extruder 1,M163 S2 P0 ; Set to 0 parts extruder 2,M164 S0 : Save mixing instructions,,M163 S0 P0 ; Set to 0 part extruder 0,M163 S1 P1 ; Set to 1 parts extruder 1,M163 S2 P0 ; Set to 0 parts extruder 2,M164 S1 : Save mixing instructions,,M163 S0 P0 ; Set to 0 part extruder 0,M163 S1 P0 ; Set to 0 parts extruder 1,M163 S2 P1 ; Set to 1 parts extruder 2,M164 S2 : Save mixing instructions,,T1; Set to main (second) extruder,G28; Home all axes,G0 Z5; Lower Bed,G0 X0 Y0; Rehome X and Y,G91; Set to relative positioning for purge,,T1; Reset to main (second) extruder,G0 E5 F100; Purge second Extruder,T2; Set to third extruder,G0 E5 F100; Purge third extruder,T1; Reset to main (second) extruder,,G90; Set to absolute positioning,G0 X20 Z0 F1000; Wipe nozzle,G0 Z0.1; Lower plate slightly,G92 E0; Reset Extruder and ready for printing</startingGcode>
+  </autoConfigureExtruders>
+  <autoConfigureExtruders name="1 + 3 Extruders" allowedToolheads="2">
+    <primaryExtruder>0</primaryExtruder>
+    <raftExtruder>0</raftExtruder>
+    <skirtExtruder>0</skirtExtruder>
+    <infillExtruder>0</infillExtruder>
+    <supportExtruder>1</supportExtruder>
+    <useSkirt>0</useSkirt>
+    <usePrimePillar>1</usePrimePillar>
+    <useOozeShield>0</useOozeShield>
+    <toggleTemperatureController name="Diamond Hotend Temperature" status="on" stabilize="on"/>
+    <startingGcode>; Set mixed color,; For other colors visit http://www.reprap.org/wiki/Repetier_Color_Mixing,M163 S0 P1 ; Set to 1 part extruder 0,M163 S1 P0 ; Set to 0 parts extruder 1,M163 S2 P0 ; Set to 0 parts extruder 2,M164 S0 : Save mixing instructions,,M163 S0 P0 ; Set to 0 part extruder 0,M163 S1 P1 ; Set to 1 parts extruder 1,M163 S2 P0 ; Set to 0 parts extruder 2,M164 S1 : Save mixing instructions,,M163 S0 P0 ; Set to 0 part extruder 0,M163 S1 P0 ; Set to 0 parts extruder 1,M163 S2 P1 ; Set to 1 parts extruder 2,M164 S2 : Save mixing instructions,,T0; Set to main (first) extruder,G28; Home all axes,G0 Z5; Lower Bed,G0 X0 Y0; Rehome X and Y,G91; Set to relative positioning for purge,,T0; Reset to main (first) extruder,G0 E5 F100; Purge first Extruder,T2; Set to third extruder,G0 E5 F100; Purge third extruder,T0; Reset to main (first) extruder,,G90; Set to absolute positioning,G0 X20 Z0 F1000; Wipe nozzle,G0 Z0.1; Lower plate slightly,G92 E0; Reset Extruder and ready for printing</startingGcode>
+  </autoConfigureExtruders>
+  <autoConfigureExtruders name="All Extruders" allowedToolheads="5">
+    <primaryExtruder>0</primaryExtruder>
+    <raftExtruder>0</raftExtruder>
+    <skirtExtruder>0</skirtExtruder>
+    <infillExtruder>0</infillExtruder>
+    <supportExtruder>1</supportExtruder>
+    <useSkirt>0</useSkirt>
+    <usePrimePillar>1</usePrimePillar>
+    <useOozeShield>0</useOozeShield>
+    <toggleTemperatureController name="Diamond Hotend Temperaturer" status="on" stabilize="on"/>
+    <startingGcode>; Set mixed color,; For other colors visit http://www.reprap.org/wiki/Repetier_Color_Mixing,M163 S0 P1 ; Set to 1 part extruder 0,M163 S1 P0 ; Set to 0 parts extruder 1,M163 S2 P0 ; Set to 0 parts extruder 2,M164 S0 : Save mixing instructions,,M163 S0 P0 ; Set to 0 part extruder 0,M163 S1 P1 ; Set to 1 parts extruder 1,M163 S2 P0 ; Set to 0 parts extruder 2,M164 S1 : Save mixing instructions,,M163 S0 P0 ; Set to 0 part extruder 0,M163 S1 P0 ; Set to 0 parts extruder 1,M163 S2 P1 ; Set to 1 parts extruder 2,M164 S2 : Save mixing instructions,,M163 S0 P1 ; Set to 1 part extruder 0,M163 S1 P1 ; Set to 1 parts extruder 1,M163 S2 P1 ; Set to 0 parts extruder 2,M164 S3 : Save mixing instructions,,M163 S0 P0 ; Set to 0 part extruder 0,M163 S1 P1 ; Set to 1 parts extruder 1,M163 S2 P1 ; Set to 1 parts extruder 2,M164 S4 : Save mixing instructions,,,T0; Set to main (first) extruder,G28; Home all axes,G0 Z5; Lower Bed,G0 X0 Y0; Rehome X and Y,G91; Set to relative positioning for purge,,T0; Reset to main (first) extruder,G0 E5 F100; Purge first Extruder,T1; Set to second extruder,G0 E5 F100; Purge second extruder,T2; Set to third extruder,G0 E5 F100; Purge third extruder,T0; Reset to main (first) extruder,,G90; Set to absolute positioning,G0 X20 Z0 F1000; Wipe nozzle,G0 Z0.1; Lower plate slightly,G92 E0; Reset Extruder and ready for printing</startingGcode>
+  </autoConfigureExtruders>
+</profile>
